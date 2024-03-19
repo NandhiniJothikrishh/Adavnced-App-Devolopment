@@ -1,0 +1,41 @@
+table {
+  border: 1px solid black;
+  width: 625px;
+  font-family: Arial, sans-serif;
+  border-collapse: collapse;
+  margin: 5% auto;
+}
+
+.heading {
+  color: white;
+}
+
+#container {
+  position: relative;
+  width: 725px;
+  padding: 32px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.37);
+  box-shadow: 2px 4px 8px #6b728040;
+  text-align: center;
+  opacity: 0.9;
+  background: url('https://images.pexels.com/photos/3052360/pexels-photo-3052360.jpeg?cs=srgb&dl=pexels-rahul-pandit-3052360.jpg&fm=jpg') no-repeat center center/cover;
+}
+
+td, th {
+  padding: 5px;
+  border: 1px solid #30cddf;
+  text-align: left;
+  color: white;
+}
+
+#contain {
+  padding-left: 28%;
+  padding-top: 18%;
+}
+
+.page {
+  margin-left: 39%;
+  margin-top: 2%;
+  color: white;
+}

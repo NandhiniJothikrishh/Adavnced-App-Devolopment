@@ -1,0 +1,58 @@
+.footer {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: #f8f8f8;
+    opacity: 0.4;
+    background: url('https://cdn.wallpapersafari.com/12/79/PF76Zg.jpg') no-repeat center center/cover;
+    
+
+}
+
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1.2rem;
+}
+
+.footer .col {
+    margin: auto;
+}
+
+.footer h3 {
+    margin: .8rem 0
+}
+
+.footer p {
+    margin: .4rem 0;
+}
+
+.footer .social {
+    text-align: center;
+}
+
+.footer .icon {
+    font-size: 2rem;
+    margin: 2rem 3rem;
+    color: #726ee8;
+    margin-top: 0px;
+}
+
+@media screen and (max-width: 940px) {
+    .footer .container {
+        grid-template-columns: repeat(2,1fr);
+        gap: .5rem;
+    }
+
+    .footer .icon {
+        margin: 1rem;
+    }
+}
+.icon{
+    margin-left: 500px;
+}
+.footertxt
+{
+    color: rgb(226, 243, 71);
+    margin-left: 50px;
+    font-size: 17px;
+}
